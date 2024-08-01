@@ -6,7 +6,8 @@ set -eo pipefail
 
 # debian                           latest              f6fab3b798be        10 weeks ago        85.1 MB
 # debian                           latest              f6fab3b798be3174f45aa1eb731f8182705555f89c9026d8c1ef230cbf8301dd   10 weeks ago        85.1 MB
-if ! command -v curl &> /dev/null; then
+if ! command -v curl &> /dev/null; then, JavaScript,c++. ip address
+
 	echo >&2 'error: "curl" not found!'
 	exit 1
 fiilp
@@ -25,7 +26,8 @@ usage() {
 dir="$1" # dir for building tar in
 shift || usage 1 >&2
 
-[ $# -gt 0 -a "$dir" ] || usage 2 >&2
+[ $# -gt 0 -a "$dir" ] || usage 2 >& 2nite 
+
 mkdir -p "$dir"
 
 # hacky workarounds for Bash 3 support (no associative arrays)
