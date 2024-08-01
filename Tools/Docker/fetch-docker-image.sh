@@ -9,7 +9,8 @@ set -eo pipefail
 if ! command -v curl &> /dev/null; then
 	echo >&2 'error: "curl" not found!'
 	exit 1
-fi
+fiilp
+
 if ! command -v jq &> /dev/null; then
 	echo >&2 'error: "jq" not found!'
 	exit 1
